@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/img/4053439-beverage-drink-hot-kitchen-restaurant-tea_113460.png">
+  <title>Portfolio - Projets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+        darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+
+  
+</head>
+
+<body class="dark " >
+  <div class="relative box-border bg-slate-50 dark:bg-cyan-900 ">
+  <div class="static ">
+    <!-- <h1 class="m-2 mt-50 text-xxl p-50">Portfolio</h1> -->
+
+  <header class="fixed top-0 left-0 right-0  p-2 bg-cyan-700 dark:bg-t-600 flex justify-between">
+      <p class="text-sm sm:text-xl text-slate-200 dark:text-cyan-100 font-semibold text-center basis-1/2">Edith BERNARD</p>
+
+      <nav class="basis-1/2">
+        <ul class="flex space-x-4 mr-px ">
+          <li class="text-sm md:text-xl font-semibold text-teal-300 dark:text-teal-300"><a href="#projet">Mes projets</a></li>
+          <li class="text-sm md:text-xl font-semibold text-sky-400 dark:text-sky-400"><a href="#profil">Mon profil</a></li>
+          <!-- <li><a href="">Accueil</a></li>           -->
+        </ul>
+      </nav>
+      <button id="darkModeToggle" class="flex space-x-4 mr-px bg-cyan-900 dark:bg-cyan-200 rounded self-center" ><img class="self-center" src="./img/weather_day_night_sun_moon_cycle_icon_156056 (1).png" alt="darkMode"></button>
+      
+  </header>
+
+
+
+  <section id="projet" class="m-2 pt-24 md:p-24">
+
+    <h2 class=" border-b-2 text-xl text-teal-500 border-teal-500 dark:text-teal-300 border-teal-300">Mes projets</h2>
+    <div class="m-20 p-50 max-w-sm mx-auto bg-white dark:bg-cyan-900 rounded-xl shadow-teal-700 dark:shadow-teal-500 shadow-xl   overflow-hidden md:max-w-2xl">
+      
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/kamelott.jpeg" alt="Modern building architecture">
+        </div>
+        <div class="p-8">
+          <div class=" tracking-wide text-3xl text-center text-teal-700 dark:text-teal-500 font-semibold mb-5">Kaamel'O'tt - projet de fin d'étude</div>
+          <div class="flex justify-between gap-2">
+            <button class="bg-teal-500 hover:bg-teal-700 text-slate-200  p-2 rounded"><a href="https://edithbzh.ovh/" class="block mt-1 text-lg leading-tight font-medium text-black ">Kaamel'O'tt</a></button>
+            <button class="bg-teal-500 hover:bg-teal-700 text-slate-200  p-2 rounded"><a href="https://github.com/EdithBERNARD/projet-apotheose-kaamelott" class="block mt-1 text-lg leading-tight font-medium text-black ">repo Github</a></button>
+          </div>
+          <p class="mt-5 text-slate-500 dark:text-slate-300 ">Développement d'un site internet responsive frontend et backend. Projet d'un mois avec une équipe de 4 developpeurs fullstack (spé symfony). Site répertoriant les meilleurs citations de la série "kaamelott", des informations sur la série et quizz de connaissance sur la série</p>
+          <p class="mt-2 text-slate-700 dark:text-teal-300 "> Technos utilisées : HTML CSS JS Symfony Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="m-20 max-w-sm mx-auto bg-white dark:bg-cyan-900 rounded-xl shadow-teal-700 dark:shadow-teal-500 shadow-xl overflow-hidden md:max-w-2xl">
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img class="h-48 w-full object-cover md:h-full md:w-48" src="./img/robert.png" alt="Modern building architecture">
+        </div>
+        <div class="p-8">
+          <div class=" tracking-wide text-3xl text-center text-teal-700 dark:text-teal-500 font-semibold mb-5 ">GOT - projet réalisé en parallèle de la spé Symfony</div>
+          <div class=" flex justify-between gap-2">
+            <button class="bg-teal-500 hover:bg-teal-700 text-slate-200 p-2 rounded"><a href="https://www.edithbzh.ovh/" class="block mt-1 text-lg leading-tight font-medium text-black ">GOT</a></button>
+            <button class="bg-teal-500 hover:bg-teal-700 text-slate-200 p-2 rounded"><a href="https://github.com/EdithBERNARD/GOT-symfo" class="block mt-1 text-lg leading-tight font-medium text-black ">repo Github</a></button>
+          </div>
+          <p class="mt-5 text-slate-500 dark:text-slate-300">Développement d'un site internet frontend et backend. l'exercice nous avait été proposé en laravel mais je l'ai passé en symfo et aprofondi au fur et à mesure des notions vues pendant la spécialisation (travail non demandé pendant la formation et fait en autonomie ). Pour le frontOffice (des intégrations statiques avaient été fournies en HTML/CSS ) avec twig et utilisation de boostrap pour la barre de navigation et les formulaires. la BDD a été retravaillée, les entitées et leurs relations ont entièrement été crées sur le terminal avec des migrations. 
+          </p>
+          <p class="mt-2 text-slate-700 dark:text-teal-300"> Technos utilisées : HTML CSS Symfony Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="profil" class="m-2 py-24 md:p-24">
+    <h2 class="static mt-5 border-b-2 text-xl text-sky-500 border-sky-500 dark:text-sky-300 dark:border-sky-300">Mon profil</h2>
+    <div class="m-2">
+      <div class="m-20 max-w-sm mx-auto bg-white dark:bg-cyan-800 rounded-xl shadow-sky-700 dark:shadow-sky-500 shadow-xl   overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+          <div class="md:shrink-0">
+              <img class="h-45 w-45 object-cover md:h-full md:w-48" src="./img/photoNB.jpg" alt="Modern building architecture">
+          </div>
+          <div class="p-8">
+              <div class=" tracking-wide text-3xl text-center text-sky-700 dark:text-sky-400 font-semibold">Développeuse Web Fullstack - Spécialisée Symfony </div>
+              
+              <p class="mt-2 text-slate-700 dark:text-sky-50">Je suis actuellement à la recherche d'une entreprise pour faire l'alternance : Concepteur développeur d'Applications (16.10.2023 - 31.01.2025) </p>
+              <p class="mt-2 text-sky-700 dark:text-sky-400">Durée : 13 mois + 3 mois 100% en entreprise </p>
+              <p class="mt-2 text-sky-700 dark:text-sky-400">Rythme : 1 semaine en formation, 2 semaines en entreprise.  </p>
+              <p class="mt-2 text-sky-700 dark:text-sky-400">Possibilité de commencer plutôt avec un stage. </p>
+              <p class="mt-2 text-slate-700 dark:text-sky-50">Sortant d'une formation de développeur web et web mobile, je souhaite faire cette alternance pour monter en compétence et acquérir de l'expérience. </p>
+              <div class="p-5 flex justify-between ">
+                  <button class="bg-sky-500 hover:bg-sky-700 text-slate-200 p-2 rounded"><a href="https://www.canva.com/design/DAFiuwMxp8o/lFnoeT6YDd1dlIqP2GupUQ/view?utm_content=DAFiuwMxp8o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" class="block mt-1 text-lg leading-tight font-medium text-black ">CV</a></button>
+                  <button class="bg-sky-500 hover:bg-sky-700 text-slate-200 p-2 rounded"><a href="https://www.linkedin.com/in/edith-bernard-devweb/" class="block mt-1 text-lg leading-tight font-medium text-black ">linkedin</a></button>
+                  <button class="bg-sky-500 hover:bg-sky-700 text-slate-200 p-2 rounded"><a href="https://github.com/EdithBERNARD" class="block mt-1 text-lg leading-tight font-medium text-black ">Github</a></button>
+              </div>
+
+          </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="m-2">
+      <div class="m-20 max-w-sm mx-auto bg-white dark:bg-cyan-800 rounded-xl shadow-sky-700 dark:shadow-sky-500 shadow-xl   overflow-hidden md:max-w-2xl">
+          <div class="">
+            <div class="">
+                <img class="h-45 w-45 object-cover " src="./img/bandeau.jpg" alt="Modern building architecture">
+            </div>
+              <div class="p-8">
+                  <div class=" tracking-wide text-2xl text-sky-700 dark:text-sky-400 font-semibold">Programme de l'alternance CDA Concepteur développeur d'applications </div>
+                  
+                  <p class="mt-2 text-slate-700 dark:text-sky-50"> Je souhaite réaliser cette formation chez O'clock, ayant réalisé ma formation initiale de développeur chez eux. vous trouverez <a class=" tracking-wide text-2xl text-sky-700 dark:text-sky-400 font-semibold underline" href="https://oclock.io/alternance-pro"> " ICI "</a> plus d'information concernant leur formation en alternance.</p>
+                  <p class="mt-2 text-slate-700 dark:text-sky-50">Cette alternance prépare au titre professionnel CDA, voici quelques activités qu'il serait interressant d'intégrer dans les missions qui pourrait m'être confiées : </p>
+                  <ul class="mt-2 text-sky-600 dark:text-sky-400">
+                      <li>1- Développer une application sécurisée
+                          <ul class="ml-5 text-sky-700 dark:text-sky-400">
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Analyser les besoins et maquetter une application</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Définir l’architecture logicielle d’une application</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Concevoir et mettre en place une base de données relationnelle</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Développer des composants d’accès aux données SQL et NoSQL</ol>
+                          </ul>
+                      </li>
+                      <li>2- Concevoir et développer une application sécurisée organisée en couches
+                          <ul class="ml-5 text-sky-700 dark:text-sky-400">
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Analyser les besoins et maquetter une application</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Définir l’architecture logicielle d’une application</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Concevoir et mettre en place une base de données relationnelle</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Développer des composants d’accès aux données SQL et NoSQL</ol>
+                          </ul></li>
+                      <li>3- Préparer le déploiement d’une application sécurisée
+                          <ul class="ml-5 text-sky-700 dark:text-sky-400">
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Préparer et exécuter les plans de tests d’une application</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Préparer et documenter le déploiement d’une application </ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Contribuer à la mise en production dans une démarche DevOps</ol>
+                              <ol class="text-slate-700 dark:text-sky-50 ">- Préparer et exécuter le déploiement d’une application</ol>
+                          </ul>
+                      </li>
+                  </ul>
+                  <p class="mt-2 text-sky-700 dark:text-sky-400"> Ceci est un extrait du REAC (référentiels des activités types) pour le titre pro CDA</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</div>
+</div>
+</body>
+<script>
+  const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+// Ajoutez un gestionnaire d'événement au bouton pour basculer le mode sombre
+darkModeToggle.addEventListener('click', () => {
+// Basculez la classe "dark" du corps de la page
+body.classList.toggle('dark');
+});
+</script>
+</html>
